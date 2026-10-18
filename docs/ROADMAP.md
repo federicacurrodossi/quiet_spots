@@ -34,17 +34,15 @@ Quiet Spots is a Flutter app: a crowdsourced map of study places (libraries, caf
 
 ## 1. Week-by-week roadmap
 
-### Roles
-
-- **A (Flutter lead):** architecture, sensor and isolate pipeline, CI, code reviews.
-- **B (Backend and data):** Supabase schema, location queries, aggregation, data import, offline sync, notifications.
-- **C (UI/UX and quality):** Figma, theme, screens, tablet layouts, golden and widget tests, owner of the design document and presentation.
-
-Everyone writes tests for their own code.
-
-**The rule that keeps nobody blocked:** in week 2, A defines the repository interfaces plus fake implementations. C then builds every screen against fake data while B builds the real backend behind the same interfaces.
-
 ### Schedule
+
+  - Weekly meetings to check on current situation and decide on next steps.
+      - 18/10
+        - Creation of repository and setup.
+        - Decision on project content and goals
+        - Next steps:
+          - Research on where to find usable data
+          - Research on backend    
 
 | Week | Dates | Goals | Milestone |
 |---|---|---|---|
